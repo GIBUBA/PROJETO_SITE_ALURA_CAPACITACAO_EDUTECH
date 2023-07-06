@@ -50,12 +50,20 @@ body{
 }
 
 .estudante-div{
-    text-align: center;
+    text-align: center;  
 }
+
 
 .estudante-titulo{
     text-align: center;
     padding: 50x 0;
+}
+
+.coordenacao-todos{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    vertical-align: bottom ;
+    justify-content: center ;
 }
 
 .rodape{
